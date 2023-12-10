@@ -21,7 +21,7 @@ Develop a program for genetic algorithm, randomly generate a list of chromosomes
 - X = 0.1
 - CROSSOVER = '1-point'
 - Z = 0.3
-Since the size of this file is very small, we need high mutation rate (Z) and low elitist selection percentage (X). 
+<p>Since the size of this file is very small, we need high mutation rate (Z) and low elitist selection percentage (X). 
 Warning that with this small file, no mutation (Z = 0.0) may cause an infinite loop because there are more and more 
-same chromosomes generated, making crossover algorithm get stuck.
+same chromosomes generated, making crossover algorithm get stuck.</p>
 
